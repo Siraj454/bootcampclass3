@@ -35,7 +35,7 @@ jobs:
       run: yarn build
     
     - name: installing surge  
-      run: npm install -g surge
+      run: yarn install -g surge
     
     - name: deploying on surge
       run: surge ./build http://sirajapp33.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
