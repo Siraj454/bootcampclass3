@@ -8,6 +8,5 @@ function Fav(props) {
 
         </div>
     );
-    export default Fav;
-
 }
+export default Fav;
