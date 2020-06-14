@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-
+import Fav from './fav.js';
 function App() {
   return (
     <div>
-   Hello world! from <br></br> Muhammad Siraj Abbasi abcd
+        <Fav GAMES="Cricket" FOOD="Biryani" STUDY="Programming" />
+        
     </div>
   );
 }
